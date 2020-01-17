@@ -31,7 +31,33 @@ On one sigle line, declare threee variable with the following names and values:
 var firstName = "John" ,  lastName = "Doe" , age = 35;
 ```
 
-# JS Operator
+# JS Operators
+
+* ```typeof(x)``` : returns the Datatype of the parameter x
+* ```new```       : Keyword that allows to create an instance of an Object or builtin Datatype (ex: String)
+
+## typeof
+```
+// Will print out : Number
+Console.log(typeof(45));
+
+// Will print out : Boolean
+Console.log(typeof(true));
+```
+ ## new
+```
+function person(name , surname, age)
+{
+  this.name = name;
+  this.surname = surname;
+  this.age = age; 
+}
+
+const person1 = new person('Davide' , 'Pollicino' , 20);
+// Output: 20
+console.log(person1.age);
+```
+
 
 Multiply 10 with 5, and alert the result:
 ```
@@ -474,11 +500,6 @@ Use the getElementById method to find the ```<p>``` element, and change its text
 </script>
 ```
 
-
-
-```
-
-```
 Change the text of the first element that has the class name "test".
 
 ```
@@ -489,18 +510,21 @@ Change the text of the first element that has the class name "test".
   documeent.getElementsByClassName("test")[0].innerHTML = "Hello";
 </script>
 ```
+
 Use HTML DOM to change the value of the image's src attribute.
 ```
 <script>
   document.getElementById("image").src = "pic_mountain.jpg";
 </script>
 ```
+
 Use HTML DOM to change the value of the input field.
 ```
 <script>
   document.getElementById("myText").value = "Hello";
 </script>
 ```
+
 Change the text color of the ```<p>``` element to "red".
 ```
 <p id="demo"></p>
@@ -516,8 +540,8 @@ Change the font size of the p element to 40 pixels.
 <script>
   document.getElementById("demo").style.fontSize = "40px";
 </script>
-
 ```
+
 Use the CSS display property to hide the p element.
 ```
 <p id="demo"></p>
@@ -526,6 +550,7 @@ Use the CSS display property to hide the p element.
   document.getElementById("demo").style.display = "none";
 </script>
 ```
+
 Use the eventListener to assign an onclick event to the ```<button>``` element.
 ```
 <button id="demo">Click me1</button>
