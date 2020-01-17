@@ -58,17 +58,26 @@ y = 5;
 x *= y;
 ```
 
-# JS Data types
+# JS Data types and Arrays
 
 ```
-var length = 16;          //  Number
+// Number
+var length = 16; 
 
-var lastName = "Johnson"; // String
+// String
+var lastName = "Johnson"; 
 
+// Object
 var x = {
   firstName: "John",
   lastName: "Doe"
-};                        // Object
+};  
+
+// Array with for elements
+var myArray = [1,2,3,4];
+
+// Declare an empty array that will contains for 4 elements
+var myArray = new Array(4);
 ```
 
 # JS Functions
