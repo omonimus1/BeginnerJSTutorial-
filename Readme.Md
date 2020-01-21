@@ -137,6 +137,17 @@ function myFunction() {
 }
 ```
 
+# Call js function from a JS file
+```
+<html>
+    <head>
+        <script rel="text/javascript" src="ExampleFile.js"> </script>
+    </head>
+    <body>
+    </body>
+</html>
+```
+
 # JS Object
 
 Alert "John" by extracting information from the person Object
