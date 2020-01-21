@@ -191,7 +191,7 @@ alert(x);
 ```
 Use escape characters to alert We are "Vikings".
 ```
-var txt = "
+var txt = " ";
 We are \"Vikings\"";
 alert(txt);
 ```
