@@ -1,6 +1,11 @@
-# Tutorial based on the Javascript Exercises provided by W3Schools
+# JavaScript tutorial
 
 # JS Variables
+
+In JavaScript, we can declare varible using three different keywords:
+* var : create a variable globally availale throught the program
+* let : create a variable available just the block of code declared, as if statement or function
+* const : create a read-only reference to a value. 
 
 Create a variabole called carName and assign the value Volvo to it.
 ```
